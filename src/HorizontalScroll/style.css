@@ -1,0 +1,28 @@
+.vertical-scrollable> .row {
+    position: absolute;
+    top: 120px;
+    bottom: 100px;
+    left: 180px;
+    width: 50%;
+    overflow-y: scroll; 
+  }
+  .col-sm-8 { 
+      color: white; 
+      font-size: 24px; 
+      padding-bottom: 20px; 
+      padding-top: 18px; 
+      height: 400px;
+      text-align: center;
+      align-items: center;
+  } 
+    
+  .col-sm-8:nth-child(2n+1) { 
+      background: rgb(0, 41, 128); 
+  } 
+    
+  .col-sm-8:nth-child(2n+2) { 
+      background: black; 
+  } 
+  .col-sm-8:nth-child(2n+3) { 
+      background: rgb(88, 105, 10); 
+  } 
